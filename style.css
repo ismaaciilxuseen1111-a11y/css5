@@ -152,6 +152,10 @@ font-size: small;
     .footer-links a:hover{
       color: rgb(104, 26, 26);
     }
+
+    .what h1{
+      color: blue;
+    }
 @media (max-width:768px) {
   .box{
     flex-direction: column;
