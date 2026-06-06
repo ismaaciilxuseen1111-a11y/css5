@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.header  li span{
+color: aqua;
+}
+
+.header button{
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+
+}
+/* kan waa midka haayo h1 ka iyo p  */
+ .box{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+ }
+ .all{
+    font-size: 20px;
+    padding-bottom: 20px;
+ }
+ .all h1 span{
+    color: blue;
+ }
+
+ .image img{
+width: 700px;
+height: 400px;
+margin-right: 30PX;
+ }
+
+ .left{
+    display: flex;
+    background-color: blue;
+    /* width: 300px; */
+    height: 100px;
+    gap: 70px;
+    /* margin-left: 40px; */
+    /* margin-top: 50px; */
+    align-items: center;
+    /* justify-content: space-between; */
+ }
+
+ .right{
+    margin-left: 100px;
+    /* margin-top: 50px; */
+
+ }
+ 
+ .top{
+    display: flex;
+ } 
+
+.true p span{
+color: aqua;
+font-size: small;
+ justify-content: space-between;
+ margin: 0;
+ }
+
+ .down h1{
+    font-size: medium;
+   
+ }
+
+ .abdi{
+    display: flex;
+    gap: 30px;
+    /* width: 200px; */
+    /* height: 100px; */
+ }
+
+ .what img{
+    width: 300px;
+    height: 200px;
+    /* gap: 30px; */
+    border-radius: 10px;
+   margin-left: 30px;
+ }
+ .what p{
+   margin-left: 30px;
+ }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+   .body{
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content{
+      display: flex;
+    }
+ 
+    .footer{
+      background-color: chocolate;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .footer h2{
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    .footer p{
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .footer-links{
+      margin-top: 15px;
+    }
+
+    .footer-links a{
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .footer-links a:hover{
+      color: rgb(104, 26, 26);
+    }
+@media (max-width:768px) {
+  .box{
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .all{
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  .image img{
+    width: 300px;
+    margin-left: 30px;
+  }
+  .left{
+    flex-direction: column;
+    gap: 10px;
+   padding-bottom: 0px;
+  }
+  .right i{
+    padding-bottom: 40px;
+  }
+  
+}
+  
